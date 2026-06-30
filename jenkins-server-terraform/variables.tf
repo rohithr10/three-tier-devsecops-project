@@ -2,7 +2,7 @@
 
 variable "region" {
   description = "The AWS region to create resources in."
-  default     = "us-west-2"
+  default     = "ap-south-1"
 }
 
 # Networking Configuration
@@ -43,7 +43,7 @@ variable "instance_name" {
 
 variable "instance_type" {
   description = "Type of EC2 instance"
-  default     = "t2.2xlarge"
+  default     = "m7i-flex.large"
 }
 
 
